@@ -1,5 +1,5 @@
 # docker_ros_gazebo
----A Dockerized development environment for **ROS Noetic**, **ArduPilot**, **MAVROS**, and **IQ_Sim** — ideal for autonomous drone simulation, testing, and research using **SITL** and **Gazebo**.
+A Dockerized development environment for **ROS Noetic**, **ArduPilot**, **MAVROS**, and **IQ_Sim** — ideal for autonomous drone simulation, testing, and research using **SITL** and **Gazebo**.
 
 ## 🚀 Features
 
@@ -15,4 +15,4 @@
 git clone https://github.com/your-username/docker_ros_gazebo.git
 cd docker_ros_gazebo
 docker build -t ros-ardupilot .
-docker run -it --privileged --net=host ros-ardupilot
+docker run -it ros-ardupilot
