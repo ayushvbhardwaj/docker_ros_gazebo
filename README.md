@@ -9,6 +9,20 @@ A Dockerized development environment for **ROS Noetic**, **ArduPilot**, **MAVROS
 - IQ_Sim Gazebo integration
 - Pre-configured Catkin workspace
 
+<pre><code>## 📂 Directory Structure
+
+```bash
+.
+├── Dockerfile
+├── README.md
+└── /root/
+    ├── ardupilot/
+    └── catkin_ws/
+        ├── src/
+        └── devel/
+```
+</code></pre>
+
 ## 🔧 Quick Start
 
 ```bash
